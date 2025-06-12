@@ -1,0 +1,286 @@
+/* style.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.brand {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+/* style.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.brand {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Section */
+.page-section {
+  flex: 1;
+}
+
+/* Label & input */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="number"]:focus-visible {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover,
+button:focus-visible {
+  background-color: #0056b3;
+  outline: none;
+}
+
+/* Hasil prediksi */
+#prediction {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #28d745; /* sedikit lebih cerah */
+  text-align: center;
+}
+
+#recommendation {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+#recommendation ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: auto;
+  /* Kalau mau footer selalu di bawah layar, bisa pakai: */
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; */
+}
+
+.page-section {
+  flex: 1;
+}
+
+/* Label & input */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="number"]:focus-visible {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover,
+button:focus-visible {
+  background-color: #0056b3;
+  outline: none;
+}
+
+
+#prediction {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #28d745; 
+  text-align: center;
+}
+
+#recommendation {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+#recommendation ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: auto;
+ 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
