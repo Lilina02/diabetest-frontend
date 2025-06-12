@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".nav-link");
 
   // URL Backend API
-  const API_URL = "https://diabetest-backend-production.up.railway.app/";
+  const API_URL = "https://diabetest-backend-production.up.railway.app/predict";
 
   // --- 2. FUNGSI-FUNGSI PEMBANTU (HELPERS) ---
 
